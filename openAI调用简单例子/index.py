@@ -33,4 +33,5 @@ chat_completion = client.chat.completions.create(
     ],
     model = model,  # 此处更换其它模型,请参考模型列表 eg: google/gemma-7b-it
 )
+
 print(chat_completion.choices[0].message.content)
